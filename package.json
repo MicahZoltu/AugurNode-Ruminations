@@ -1,0 +1,22 @@
+{
+	"name": "augur-node",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.0.4",
+		"@types/chai-as-promised": "^7.1.0",
+		"@types/mocha": "^2.2.43",
+		"@types/ws": "^3.0.2",
+		"chai": "^4.1.2",
+		"chai-as-promised": "^7.1.1",
+		"mocha": "3.5.3",
+		"typescript": "2.5.2"
+	},
+	"dependencies": {
+		"jsonrpc-dispatch": "2.1.0",
+		"ws": "3.2.0"
+	}
+}
